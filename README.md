@@ -47,13 +47,13 @@ pip3 install -r requirements.txt
 `linux`
 
 ```bash
-cp .env.template .env
+cp bot/.env.template bot/.env
 ```
 
 `windows`
 
 ```shell
-copy .env.template .env
+copy bot/.env.template bot/.env
 ```
 
 В .env надо поместить Token полученый у [BotFather](https://t.me/BotFather)
