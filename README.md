@@ -68,6 +68,8 @@ cp .env.template .env
 copy .env.template .env
 ```
 
+В .env надо поместить Token полученый у [BotFather](https://t.me/BotFather)
+
 ### Запускаем бота
 
 `linux`
