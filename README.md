@@ -4,6 +4,14 @@ TG bot для определения лесного пожара на спутн
 
 ## Запуск бота
 
+### Клонируем репозиторий
+
+`linux`  `window`
+
+```bash
+git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
+```
+
 ### Создаём виртуальное окружение
 
 `linux`
