@@ -14,15 +14,9 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 
 ### Создаём виртуальное окружение
 
-`linux`
+`linux` `windows`
 
 ```bash
-python3 -m venv venv
-```
-
-`windows`
-
-```shell
 python3 -m venv venv
 ```
 
@@ -42,16 +36,10 @@ venv\Scripts\activate.ps1
 
 ### Устанавливаем зависимости
 
-`linux`
+`linux`  `windows`
 
 ```bash
 pip3 install -r requirements.txt
-```
-
-`windows`
-
-```shell
-pip install -r requirements.txt
 ```
 
 ### Создаём .env файл
@@ -70,16 +58,18 @@ copy .env.template .env
 
 В .env надо поместить Token полученый у [BotFather](https://t.me/BotFather)
 
-### Запускаем бота
+### Создаём папку data
 
-`linux`
+`linux`  `windows`
 
-```bash
-python3 bot/main.py
+```
+mkdir data
 ```
 
-`windows`
+### Запускаем бота
 
-```shell
+`linux` `windows`
+
+```bash
 python3 bot/main.py
 ```
