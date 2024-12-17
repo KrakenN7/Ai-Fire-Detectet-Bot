@@ -17,13 +17,13 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 `linux`
 
 ```bash
-    python3 -m venv venv
+python3 -m venv venv
 ```
 
 `windows`
 
 ```shell
-    python3 -m venv venv
+python3 -m venv venv
 ```
 
 ### Активируем виртуальное окружение
@@ -31,13 +31,13 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 `linux`
 
 ```bash
-    source venv/bin/activate
+source venv/bin/activate
 ```
 
 `windows`
 
 ```shell
-    venv\Scripts\activate.ps1
+venv\Scripts\activate.ps1
 ```
 
 ### Устанавливаем зависимости
@@ -45,13 +45,13 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 `linux`
 
 ```bash
-    pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 `windows`
 
 ```shell
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Создаём .env файл
@@ -59,13 +59,13 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 `linux`
 
 ```bash
-    cp .env.template .env
+cp .env.template .env
 ```
 
 `windows`
 
 ```shell
-    copy .env.template .env
+copy .env.template .env
 ```
 
 ### Запускаем бота
@@ -73,11 +73,11 @@ git clone https://github.com/KrakenN7/Ai-Fire-Detectet-Bot.git
 `linux`
 
 ```bash
-    python3 bot/main.py
+python3 bot/main.py
 ```
 
 `windows`
 
 ```shell
-    python3 bot/main.py
+python3 bot/main.py
 ```
